@@ -18,13 +18,13 @@ A powerful CLI tool for generating test files of various types and sizes. Perfec
 ### Global Installation
 
 ```bash
-npm install -g generate-test-files
+npm install -g @frostbelt/generate-test-files
 ```
 
 ### Local Installation
 
 ```bash
-npm install generate-test-files
+npm install @frostbelt/generate-test-files
 ```
 
 ## Usage
