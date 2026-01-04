@@ -1,0 +1,52 @@
+{
+  "name": "generate-test-files",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for generating test files of various types and sizes. Perfect for testing file upload functionality, storage systems, and bandwidth limits. Supports text, binary, images, videos, and more.",
+  "main": "lib/index.js",
+  "bin": {
+    "generate-test-files": "./bin/generate-test-files.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint lib/ bin/ test/",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "test-files",
+    "file-generator",
+    "mock-files",
+    "test-data",
+    "file-upload-testing",
+    "storage-testing",
+    "bandwidth-testing",
+    "cli",
+    "development-tools",
+    "testing-tools"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/generate-test-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/generate-test-files/issues"
+  },
+  "homepage": "https://github.com/yourusername/generate-test-files#readme",
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "PUBLISHING.md"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
