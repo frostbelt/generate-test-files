@@ -1,6 +1,6 @@
 {
   "name": "@frostbelt/generate-test-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful CLI tool for generating test files of various types and sizes. Perfect for testing file upload functionality, storage systems, and bandwidth limits. Supports text, binary, images, videos, and more.",
   "main": "lib/index.js",
   "bin": {
