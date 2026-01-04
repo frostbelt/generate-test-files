@@ -23,16 +23,16 @@
     "development-tools",
     "testing-tools"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "frostbelt <frostbelt@sina.cn>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/generate-test-files.git"
+    "url": "https://github.com/frostbelt/generate-test-files.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/generate-test-files/issues"
+    "url": "https://github.com/frostbelt/generate-test-files/issues"
   },
-  "homepage": "https://github.com/yourusername/generate-test-files#readme",
+  "homepage": "https://github.com/frostbelt/generate-test-files#readme",
   "files": [
     "lib/",
     "bin/",
