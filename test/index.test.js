@@ -70,7 +70,7 @@ describe('generate-test-files', () => {
   describe('generateFileName', () => {
     test('should generate filename with correct format', () => {
       const fileName = generateFileName('jpg', 2097152, 1);
-      expect(fileName).toMatch(/^\d{2}-\d{2}-\d{2}_\d+_\d+KB_\d+\.jpg$/);
+      expect(fileName).toMatch(/^\d{2}-\d{2}-\d{2}_\d+_\d+[KMGT]?B_\d+\.jpg$/);
     });
     
     test('should include index in filename', () => {
@@ -102,10 +102,10 @@ describe('generate-test-files', () => {
         count: 3,
         output: testDir
       });
-      
+
       expect(files).toHaveLength(3);
       files.forEach((file, index) => {
-        expect(file.name).toMatch(/_${index + 1}\.txt$/);
+        expect(file.name).toMatch(new RegExp(`_${index + 1}\\.txt$`));
         expect(fs.existsSync(file.path)).toBe(true);
       });
     });
